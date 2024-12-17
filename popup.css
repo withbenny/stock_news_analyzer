@@ -1,0 +1,92 @@
+/* popup.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    width: 350px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: white;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  header h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #0078D7;
+  }
+  
+  header p {
+    font-size: 12px;
+    color: #555;
+  }
+  
+  button {
+    background-color: #0078D7;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 0;
+  }
+  
+  button:hover {
+    background-color: #005a9e;
+  }
+  
+  #loading {
+    font-size: 14px;
+    color: #0078D7;
+    margin: 10px 0;
+  }
+  
+  .result {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .result p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .result ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .result li {
+    margin: 4px 0;
+    font-size: 14px;
+  }
+  
+  footer {
+    margin-top: 10px;
+    font-size: 10px;
+    color: #aaa;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
